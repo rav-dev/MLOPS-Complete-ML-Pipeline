@@ -1,0 +1,15 @@
+A. Building pipeline:
+
+1. Create a Githib repo and clone it in the local (Add experiemnts- it has a 
+notebook and a data snippet) This is the mimic version of the notebook what the data
+scientist do in their work. It has 
+    -> basic librarires
+    -> data read
+    -> data preprocessing
+    -> feature negineering
+    -> Train test split
+    -> Model training 
+    -> Model evaluation
+2. Add src folder along with all the components (run them individually).
+3. Add data, models, reports directories to .gitignore file.
+4. Now git add, commit, ″push
