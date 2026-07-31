@@ -122,6 +122,8 @@ def main():
         metrics = evaluate_model(clf, X_test, y_test)
 
         # Experiment tracking using dvclive
+        #for every experiment run we are logging accuracy, precision and recall metrics
+        #we are also logging the params.yaml file values for each experiment
         with Live(save_dvc_exp=True) as live:
             live.log_metric('accuracy', accuracy_score(y_test, y_test))
             live.log_metric('precision', precision_score(y_test, y_test))
